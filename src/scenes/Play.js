@@ -100,5 +100,7 @@ class Play extends Phaser.Scene {
             ship.alpha = 1;
             boom.destroy();
         })
+        this.p1Score += ship.points;
+        this.scoreLeft.text = this.p1Score;
     }
 }
