@@ -1,3 +1,6 @@
+// terminal: py -3 -m http.server
+// http://localhost:8000
+
 let config = {
     type: Phaser.AUTO,
     width: 640,
